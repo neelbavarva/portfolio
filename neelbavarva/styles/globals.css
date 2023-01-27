@@ -41,6 +41,12 @@ body {
     --content-color-light: #363636;
     --content-color-dark: #b1b1b1;
 
+    --content-primary-light: #363636;
+    --content-primary-dark: #d9d9d9;
+
+    --content-secondary-light: #6c6c6c;
+    --content-secondary-dark: #6c6c6c;
+
     --link-color-light: #363636;
     --link-border-color-light: #d9d9d9;
     --link-color-dark: #d9d9d9;
