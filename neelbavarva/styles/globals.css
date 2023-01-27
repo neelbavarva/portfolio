@@ -35,22 +35,28 @@ body {
     --background-light: #ffffff;
     --background-dark: #111111;
 
-    --header-color-light: #ffffff;
-    --header-color-dark: #ffffff;
+    --header-color-light: #111111;
+    --header-color-dark: #eaeaea;
 
-    --content-color-light: #ffffff;
-    --content-color-dark: #ffffff;
+    --content-color-light: #363636;
+    --content-color-dark: #b1b1b1;
 
-    --link-color: #ffffff;
-    --link-border-color: #ffffff;
-    --link-select-color: #ffffff;
-    --link-select-border-color: #ffffff;
+    --link-color-light: #363636;
+    --link-border-color-light: #d9d9d9;
+    --link-color-dark: #d9d9d9;
+    --link-border-color-dark: #6c6c6c;
 
-    --button-background-light: #ffffff;
+    --link-select-color: #8153E2;
+    --link-select-border-color: rgba(129, 83, 226, 0.4);
+
+    --button-background-light: #fafafa;
     --button-background-dark: #242424;
 
-    --button-color-light: #6c6c6c;
+    --button-color-light: #363636;
     --button-color-dark: #6c6c6c;
+
+    --button-border-color-light: #eaeaea;
+    --button-border-color-dark: #363636;
 
     --button-background-selected-light: #f6f6f6;
     --button-background-selected-dark: #2e2e2e;
