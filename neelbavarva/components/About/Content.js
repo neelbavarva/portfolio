@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from '../../styles/About/Content.module.css'
 import Link from 'next/link';
 import sample from '../../public/images/sample.png'
-import Banner from '../../public/images/me_banner.png'
+import Banner from '../../public/images/me_banner_small.png'
 
 export default function Content() {
 

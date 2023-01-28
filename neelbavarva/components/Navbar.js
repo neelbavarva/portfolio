@@ -2,7 +2,7 @@ import {useReducer} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.css'
-import Logo from '../public/icons/Vector.svg'
+import Logo from '../public/icons/neel.svg'
 
 export default function Navbar({page}) {
     const[currentPage, setCurrentPage] = useReducer(false, page);
