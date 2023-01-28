@@ -12,9 +12,9 @@ export default function Site() {
                 <p className={styles.site_content}>In case you were wondering this site is:</p>
                 <ul className={styles.site_list}>
                     <li>Designed and built on a Mac using <a href="https://figma.com/">Figma</a> and <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                    <li>Built using <a href="https://nextjs.org/">Next.js 13</a>, a React.js framework</li>
                     <li>Hosted by <a href="https://www.godaddy.com/">GoDaddy</a> with deployment via <a href="https://vercel.com/">Vercel</a></li>
-                    <li>Tracking data using <a>Plausible</a>, privacy focussed analytics</li>
-                    <li>Set in the beautiful <a>Monolisa</a> typeface</li>
+                    <li>Tracking data using <a href="https://analytics.google.com/">Google Analytics</a></li>
                 </ul>
             </div>
         </div>

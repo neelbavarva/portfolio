@@ -44,9 +44,16 @@
 
 .about_content > p{
     margin-top: 2rem;
+    margin-bottom: 4.5rem;
     font-size: 14px;
     line-height: 30px;
     font-family: var(--font-regular);
+}
+
+.links{
+    text-decoration: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
 }
 
 .divider {
@@ -84,6 +91,7 @@
     }
 
     .about_content > p{
+        margin-bottom: 3rem;
         font-size: 12px;
         line-height: 24px;
     }
@@ -98,6 +106,16 @@
         color: var(--content-color-light);
     }
 
+    .links{
+        color: var(--link-color-light);
+        border-bottom-color: var(--link-border-color-light);
+    } 
+
+    .links:hover{
+        color: var(--link-select-color);
+        border-bottom-color: var(--link-select-border-color);
+    } 
+
     .divider{
         opacity: 1;
     }
@@ -111,6 +129,16 @@
     .about_content > p{
         color: var(--content-color-dark);
     }
+
+    .links{
+        color: var(--link-color-dark);
+        border-bottom-color: var(--link-border-color-dark);
+    } 
+
+    .links:hover{
+        color: var(--link-select-color);
+        border-bottom-color: var(--link-select-border-color);
+    } 
 
     .divider{
         opacity: 0.3;

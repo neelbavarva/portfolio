@@ -14,9 +14,7 @@ export default function Content() {
                 <div className={styles.project_content}>
                     <h4>Finance Tracker</h4>
                     <p>
-                        An online booking system for in-person or online appointments, designed to work standalone or alongside BaseKit Sitebuilder.
-                        <br/><br />
-                        During this year-long project, I worked on every stage from conception, wireframing, IA mapping, prototyping, detailed mockups through development and launch.
+                        Designed a System (Android Application) that saves user’s 90% of time when adding monthly expenses by accelerating the process of scanning bills using OCR.
                     </p>
                     <Link legacyBehavior href="/">
                         <a className={styles.project_button}>View Project<div></div></a>
@@ -30,9 +28,8 @@ export default function Content() {
                 <div className={styles.project_content}>
                     <h4>Password Manager</h4>
                     <p>
-                        An online booking system for in-person or online appointments, designed to work standalone or alongside BaseKit Sitebuilder.
-                        <br/><br />
-                        During this year-long project, I worked on every stage from conception, wireframing, IA mapping, prototyping, detailed mockups through development and launch.
+                        An ultimate application that manages all your passwords, banking details, and credit/debit card information. <br /><br />
+                        Every piece of information is encrypted and decryted using a key. This process reduces the user&apos;s headache of having to remember every login credential.
                     </p>
                     <Link legacyBehavior href="/">
                         <a className={styles.project_button}>View Project<div></div></a>
@@ -46,9 +43,7 @@ export default function Content() {
                 <div className={styles.project_content}>
                     <h4>Crypto Tracker</h4>
                     <p>
-                        An online booking system for in-person or online appointments, designed to work standalone or alongside BaseKit Sitebuilder.
-                        <br/><br />
-                        During this year-long project, I worked on every stage from conception, wireframing, IA mapping, prototyping, detailed mockups through development and launch.
+                        Launched an android application that renders Top 200 cryptocurrencies and their data along with 1 day - 1 year chart info.
                     </p>
                     <Link legacyBehavior href="/">
                         <a className={styles.project_button}>View Project<div></div></a>
@@ -64,11 +59,11 @@ export default function Content() {
 
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Spring-Blog"><h4>Spring Blog<div /></h4></a>
-                    <div>An android app for restaurant that display&apos;s menu on scanning the QR code.</div>
+                    <div>A full stack blog app made using React.js and Spring Boot.</div>
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Contactless-Menu"><h4>Contactless Menu<div /></h4></a>
-                    <div>A full stack blog app made using Spring Boot for backend.</div>
+                    <div>An Android application for restaurants that displays menu cards after scanning a QR code.</div>
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Spotify-Clone"><h4>Spotify Clone<div /></h4></a>
