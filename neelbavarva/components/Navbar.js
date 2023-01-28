@@ -15,13 +15,13 @@ export default function Navbar({page}) {
             <div className={styles.nav_content}>
                 <div className={styles.nav_logo}>
                     <div className={styles.nav_logo_container}>
-                        <Image className={styles.nav_logo_img} src={Logo} />
+                        <Image className={styles.nav_logo_img} src={Logo} alt="logo" />
                     </div>
                 </div>
 
                 <div className={styles.nav_links}>
                     <div className={styles.nav_logo_container}>
-                        <Image className={styles.nav_logo_img} src={Logo} />
+                        <Image className={styles.nav_logo_img} src={Logo} alt="logo" />
                     </div>
                     <Link legacyBehavior href="/">
                         <a className={currentPage == "Home" ? styles.nav_selected : null}>Home</a>

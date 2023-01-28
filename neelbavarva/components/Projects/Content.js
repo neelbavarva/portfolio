@@ -9,7 +9,7 @@ export default function Content() {
         <div className={styles.container}>
             
             <div className={styles.project_container}>
-                <Image className={styles.project_img} src={sample} />
+                <Image className={styles.project_img} src={sample} alt="project banner" />
 
                 <div className={styles.project_content}>
                     <h4>Finance Tracker</h4>
@@ -25,7 +25,7 @@ export default function Content() {
             </div>
 
             <div className={styles.project_container}>
-                <Image className={styles.project_img} src={sample} />
+                <Image className={styles.project_img} src={sample} alt="project banner" />
 
                 <div className={styles.project_content}>
                     <h4>Password Manager</h4>
@@ -41,7 +41,7 @@ export default function Content() {
             </div>
 
             <div className={styles.project_container}>
-                <Image className={styles.project_img} src={sample} />
+                <Image className={styles.project_img} src={sample} alt="project banner" />
 
                 <div className={styles.project_content}>
                     <h4>Crypto Tracker</h4>
@@ -64,7 +64,7 @@ export default function Content() {
 
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Spring-Blog"><h4>Spring Blog<div /></h4></a>
-                    <div>An android app for restaurant that display's menu on scanning the QR code.</div>
+                    <div>An android app for restaurant that display&apos;s menu on scanning the QR code.</div>
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Contactless-Menu"><h4>Contactless Menu<div /></h4></a>
@@ -72,7 +72,7 @@ export default function Content() {
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Spotify-Clone"><h4>Spotify Clone<div /></h4></a>
-                    <div>A front-end clone of Spotify made using React.js and Spotify developers's API.</div>
+                    <div>A front-end clone of Spotify made using React.js and Spotify developers&apos;s API.</div>
                 </div>
             </div>
         </div>

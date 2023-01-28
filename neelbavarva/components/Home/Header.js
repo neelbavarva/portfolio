@@ -34,22 +34,22 @@ export default function Header() {
                 <div>
                     <a href="https://twitter.com/neelbavarva">
                         <div className={styles.social_links_container}>
-                            <Image className={styles.social_links_img} src={TwitterIcon} />
+                            <Image className={styles.social_links_img} src={TwitterIcon} alt="twitter icon" />
                         </div>
                     </a>
                     <a href="https://www.instagram.com/never_neel">
                         <div className={styles.social_links_container}>
-                            <Image className={styles.social_links_img} src={InstagramIcon} />
+                            <Image className={styles.social_links_img} src={InstagramIcon} alt="instagram icon" />
                         </div>
                     </a>
                     <a href="https://dribbble.com/neelbavarva">
                         <div className={styles.social_links_container}>
-                            <Image className={styles.social_links_img} src={DribbbleIcon} />
+                            <Image className={styles.social_links_img} src={DribbbleIcon} alt="dribbble icon" />
                         </div>
                     </a>
                     <a href="https://github.com/neelbavarva">
                         <div className={styles.social_links_container}>
-                            <Image className={styles.social_links_img} src={GitHubIcon} />
+                            <Image className={styles.social_links_img} src={GitHubIcon} alt="github icon" />
                         </div>
                     </a>
                 </div>
