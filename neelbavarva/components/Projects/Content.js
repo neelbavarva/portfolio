@@ -56,10 +56,25 @@ export default function Content() {
                 </div>
             </div>
 
-            {/* <hr className={styles.divider} />
+            <hr className={styles.divider} />
 
-            <h4 className={styles.skills_header}>Archives</h4>
-            <p></p> */}
+            <div className={styles.archive_container}>
+                <h4 className={styles.archive_header}>Archives</h4>
+                <div className={styles.archive_content}>Some of the old projects that I worked on.</div>
+
+                <div className={styles.archive_project}>
+                    <a href="https://github.com/neelbavarva/Contactless-Menu"><h4>Contactless Menu<div /></h4></a>
+                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
+                </div>
+                <div className={styles.archive_project}>
+                    <a><h4>Spotify Clone<div /></h4></a>
+                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
+                </div>
+                <div className={styles.archive_project}>
+                    <a><h4>Spotify Clone<div /></h4></a>
+                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
+                </div>
+            </div>
         </div>
     )
 }
