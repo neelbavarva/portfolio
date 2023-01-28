@@ -63,16 +63,16 @@ export default function Content() {
                 <div className={styles.archive_content}>Some of the old projects that I worked on.</div>
 
                 <div className={styles.archive_project}>
+                    <a href="https://github.com/neelbavarva/Spring-Blog"><h4>Spring Blog<div /></h4></a>
+                    <div>An android app for restaurant that display's menu on scanning the QR code.</div>
+                </div>
+                <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Contactless-Menu"><h4>Contactless Menu<div /></h4></a>
-                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
+                    <div>A full stack blog app made using Spring Boot for backend.</div>
                 </div>
                 <div className={styles.archive_project}>
-                    <a><h4>Spotify Clone<div /></h4></a>
-                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
-                </div>
-                <div className={styles.archive_project}>
-                    <a><h4>Spotify Clone<div /></h4></a>
-                    <div>A widely used discoveries database and companion web-app for No Man’s Sky, the science fiction space exploration game.</div>
+                    <a href="https://github.com/neelbavarva/Spotify-Clone"><h4>Spotify Clone<div /></h4></a>
+                    <div>A front-end clone of Spotify made using React.js and Spotify developers's API.</div>
                 </div>
             </div>
         </div>
