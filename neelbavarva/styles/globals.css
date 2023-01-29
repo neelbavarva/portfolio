@@ -99,28 +99,10 @@ body {
         url(../public/fonts/MonoLisa/MonoLisa-Bold.ttf) format("truetype");
 }
 
-/* SpaceGrotesk */
+/* miscellaneous */
 
 @font-face {
-    font-family: "SpaceLight";
-    src: local("SpaceLight"),
-        url(../public/fonts/SpaceGrotesk/SpaceGrotesk-Light.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "SpaceRegular";
-    src: local("SpaceRegular"),
-        url(../public/fonts/SpaceGrotesk/SpaceGrotesk-Regular.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "SpaceMedium";
-    src: local("SpaceMedium"),
-        url(../public/fonts/SpaceGrotesk/SpaceGrotesk-Medium.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "SpaceBold";
-    src: local("SpaceBold"),
-        url(../public/fonts/SpaceGrotesk/SpaceGrotesk-Bold.otf) format("truetype");
+    font-family: "KScriptRegular";
+    src: local("KScriptRegular"),
+        url(../public/fonts/KScript/KScript-Regular.ttf) format("truetype");
 }

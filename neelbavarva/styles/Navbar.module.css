@@ -25,16 +25,10 @@
     align-items: center;
 }
 
-.nav_logo_container{
-    width: 3rem;
-    height: auto;
-    position: relative;
-}
-
-.nav_logo_img{
-    width: 100%;
-    height: 100%;
-    position: relative !important;
+.nav_logo_container {
+    font-family: "KScriptRegular";
+    font-size: 24px;
+    rotate: -10deg;
 }
 
 .nav_links {
@@ -96,7 +90,7 @@
     }
 
     .nav_links .nav_logo_container {
-        padding: 16px 24px 10px 16px;
+        padding: 0px 24px 0px 16px;
     }
 
     .nav_links > a {
@@ -130,9 +124,7 @@
 
 @media (max-width: 400px) {
     .nav_logo_container{
-        width: 2.5rem;
-        height: auto;
-        position: relative;
+        font-size: 20px;
     }
     .nav_links > a {
         font-size: 12px;
@@ -144,6 +136,10 @@
     .navbar {
         border-bottom-color: #eaeaea;
         background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .nav_logo_container {
+        color: #111111;
     }
 
     .nav_links > a{
@@ -165,6 +161,10 @@
     .navbar {
         border-bottom-color: #242424;
         background-color: rgba(17, 17, 17, 0.8);
+    }
+
+    .nav_logo_container {
+        color: #ffffff;
     }
     
     .nav_links > a{

@@ -134,6 +134,11 @@
     margin-top: -1.25rem;
 }
 
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 @media (max-width: 800px) {
     .project_content{
         padding: 0rem 0rem 0rem 0rem;
@@ -277,3 +282,4 @@
         color: var(--content-secondary-dark);
     }
 }
+
