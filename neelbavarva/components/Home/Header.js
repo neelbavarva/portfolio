@@ -5,6 +5,7 @@ import TwitterIcon from '../../public/icons/twitter.svg'
 import GitHubIcon from '../../public/icons/github.svg'
 import InstagramIcon from '../../public/icons/instagram.svg'
 import DribbbleIcon from '../../public/icons/dribbble.svg'
+import LinkedInIcon from '../../public/icons/linkedin.svg'
 
 export default function Header() {
 
@@ -37,9 +38,9 @@ export default function Header() {
                             <Image className={styles.social_links_img} src={TwitterIcon} alt="twitter icon" />
                         </div>
                     </a>
-                    <a href="https://www.instagram.com/never_neel">
-                        <div className={styles.social_links_container}>
-                            <Image className={styles.social_links_img} src={InstagramIcon} alt="instagram icon" />
+                    <a href="https://www.linkedin.com/in/neel-bavarva-61662a1a3/">
+                        <div className={`${styles.social_links_container} ${styles.social_links_container_small}`}>
+                            <Image className={styles.social_links_img} src={LinkedInIcon} alt="instagram icon" />
                         </div>
                     </a>
                     <a href="https://dribbble.com/neelbavarva">

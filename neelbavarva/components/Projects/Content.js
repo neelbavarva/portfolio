@@ -66,7 +66,7 @@ export default function Content() {
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Contactless-Menu"><h4>Contactless Menu<div /></h4></a>
-                    <div>An Android application for restaurants that displays menu cards after scanning a QR code.</div>
+                    <div>An Android application for restaurants that displays menu cards on scanning the QR code.</div>
                 </div>
                 <div className={styles.archive_project}>
                     <a href="https://github.com/neelbavarva/Spotify-Clone"><h4>Spotify Clone<div /></h4></a>
