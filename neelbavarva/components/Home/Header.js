@@ -16,9 +16,8 @@ export default function Header() {
             </div>
             <div className={styles.header_content}>
                 <p>
-                    Hi, I am Neel Bavarva, a final year electronics and 
-                    communications engineering undergraduate pursuing my bachelor&apos;s 
-                    degree from NIT Surat, India.
+                    Hello, I am Neel Bavarva, a final-year Electronics and Communications 
+                    Engineering undergraduate at NIT Surat, India, pursuing my Bachelor&apos;s degree.
                 </p>
                 
                 <p>
@@ -27,7 +26,7 @@ export default function Header() {
                     I enjoy competing in hackathons and working on software projects.
                     I also like to work on my problem solving skills on <a href="https://leetcode.com/neelbavarva/" target="_blank" rel="noreferrer">Leetcode</a>.
 
-                    Here&apos;s my <a href="https://drive.google.com/file/d/1oyi0gHekD9A7rUDXpGGzX2-RkawIIYFP/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>.
+                    Here&apos;s my <a href="https://docs.google.com/document/d/1RU93frh_ecjFYVGSr0stFWRL9oivy9Az/edit?usp=sharing&ouid=103003234059526586972&rtpof=true&sd=true" target="_blank" rel="noreferrer">Resume</a>.
                 </p>
             </div>
 

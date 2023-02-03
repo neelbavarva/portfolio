@@ -19,9 +19,8 @@ export default function Content() {
                         I&apos;m passionate about design and technology and how the two can converge to create experiences for good.
 
                         <br /><br />
-
-                        Now, don&apos;t confuse me with a UI/UX designer cause I&apos;m not! I&apos;m a Full Stack developer who happen 
-                        to have a good interest in UI/UX. You can also check out my <Link className={styles.links} href="/Projects">projects</Link> to clear everything out.
+                        Now, don&apos;t mistake me for a UI/UX designer. I&apos;m a Full Stack developer with a strong interest in UI/UX design. 
+                        You can verify my expertise by viewing <Link className={styles.links} href="/Projects">my projects</Link>.
                     </p>
 
                     <hr className={styles.divider} />
