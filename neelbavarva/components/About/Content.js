@@ -10,7 +10,6 @@ export default function Content() {
         <div className={styles.container}>
             <div className={styles.about_container}>
                 <Image alt="about me" className={styles.about_img} src={Banner} />
-
                 <div className={styles.about_content}>
                     <p>
                         A developer who loves to work on frontend designs 

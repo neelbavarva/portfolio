@@ -10,17 +10,9 @@ export default function Work() {
                 <h4 className={styles.work_header}>Work</h4>
                 <div>
                     <div className={styles.work_container}>
-                        <a href="https://www.visa.com/">VISA</a>
+                        <a href="https://www.visa.com/">Software Engineer - VISA</a>
                         <div>
-                            <span>Software Engineer</span>
-                            <span>2023-<a className={styles.current}>2023</a></span>
-                        </div>
-                    </div>
-                    <div className={styles.work_container}>
-                        <a href="https://uiprocorp.com/">UIPRO</a>
-                        <div>
-                            <span>React Native Developer Intern</span>
-                            <span>May - Aug 2021</span>
+                            <span>Since June 2023</span>
                         </div>
                     </div>
                 </div>

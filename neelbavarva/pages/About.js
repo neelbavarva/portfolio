@@ -16,7 +16,7 @@ export default function About() {
             
             <div className={styles.about_continer}>
                 <Content />
-                {/* <Work /> */}
+                <Work />
                 <Site />
             </div>
 

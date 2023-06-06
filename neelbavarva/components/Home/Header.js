@@ -16,8 +16,7 @@ export default function Header() {
             </div>
             <div className={styles.header_content}>
                 <p>
-                    Hello, I am Neel Bavarva, a final-year Electronics and Communications 
-                    Engineering undergraduate at NIT Surat, India, pursuing my Bachelor&apos;s degree.
+                    Hello, I am Neel Bavarva, a Software Engineer based in the India.
                 </p>
                 
                 <p>
