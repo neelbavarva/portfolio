@@ -10,7 +10,10 @@ export default function Work() {
                 <h4 className={styles.work_header}>Work</h4>
                 <div>
                     <div className={styles.work_container}>
-                        <a href="https://www.visa.com/">Software Engineer - VISA</a>
+                        <div className={styles.work_info}>
+                            <div>Software Engineer - </div>
+                            <a href="https://visa.com" target="_blank" rel="noreferrer"></a>
+                        </div>
                         <div>
                             <span>Since June 2023</span>
                         </div>
