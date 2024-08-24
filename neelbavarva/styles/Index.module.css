@@ -30,3 +30,11 @@
     transition: 0.5s;
     margin-top: 0vh;
 }
+
+.under_construction{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: var(--font-medium);
+    color: aliceblue;
+}

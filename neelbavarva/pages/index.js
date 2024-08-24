@@ -25,10 +25,10 @@ export default function Index() {
                     />
                 </html> */}
             </Head>
-            
-            <Navbar page={"Home"} />
+            <div className={styles.under_construction}>Under construction 🚧</div>
+            {/* <Navbar page={"Home"} />
             <Header />
-            <Skills />
+            <Skills /> */}
         </div>
     )
 }
