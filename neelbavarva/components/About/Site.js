@@ -13,7 +13,6 @@ export default function Site() {
                 <ul className={styles.site_list}>
                     <li>Designed and built on a Mac using <a target="_blank" rel="noreferrer" href="https://figma.com/">Figma</a> and <a target="_blank" rel="noreferrer" href="https://code.visualstudio.com/">Visual Studio Code</a></li>
                     <li>Built using <a target="_blank" rel="noreferrer" href="https://nextjs.org/">Next.js 13</a>, a React.js framework</li>
-                    <li>Hosted by <a target="_blank" rel="noreferrer" href="https://www.godaddy.com/">GoDaddy</a> with deployment via <a target="_blank" rel="noreferrer" href="https://vercel.com/">Vercel</a></li>
                     <li>Tracking data using <a target="_blank" rel="noreferrer" href="https://analytics.google.com/">Google Analytics</a></li>
                 </ul>
             </div>

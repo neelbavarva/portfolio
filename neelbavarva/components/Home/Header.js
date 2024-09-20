@@ -54,7 +54,7 @@ export default function Header() {
                 </div>
                 <div>
                     <button>
-                        <a href="mailto:neelbavarva5@gmail.com">Email&nbsp;me</a>
+                        <a href="mailto:bavarvaneel@gmail.com">Email&nbsp;me</a>
                     </button>
                 </div>
             </div>

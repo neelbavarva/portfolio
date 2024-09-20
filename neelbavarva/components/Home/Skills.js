@@ -10,20 +10,16 @@ export default function Skills() {
                     <span>Java, Javascript</span>
                 </div>
                 <div className={styles.skills_container}>
-                    <span>Web&nbsp;&&nbsp;App&nbsp;Development</span>
-                    <span>React.js, Next.js, React Native, Node.js, MySQL</span>
+                    <span>Backend&nbsp;Development</span>
+                    <span>Spring Boot, MySQL, Oracle DB, MongoDB</span>
                 </div>
                 <div className={styles.skills_container}>
-                    <span>Development&nbsp;Tools&nbsp;&amp;&nbsp;Tech</span>
-                    <span>mongoDB, Vercel, Linux, git, npm</span>
-                </div>
-                <div className={styles.skills_container}>
-                    <span>Familiar&nbsp;With</span>
-                    <span>Computer Networks, Spring Boot, Docker</span>
+                    <span>Web&nbsp;&amp;&nbsp;App&nbsp;Development</span>
+                    <span>React.js, Next.js, React Native, Node.js</span>
                 </div>
                 <div className={styles.skills_container}>
                     <span>CS&nbsp;Fundamentals</span>
-                    <span>Complexity Analysis, Problem Solving, Database Management Systems(DBMS), Object-Oriented Design(OOPs), Operating Systems(OS)</span>
+                    <span>Computer Networks, Database Management Systems(DBMS), Object-Oriented Design(OOPs), Operating Systems(OS), Complexity Analysis</span>
                 </div>
             </div>
         </div>

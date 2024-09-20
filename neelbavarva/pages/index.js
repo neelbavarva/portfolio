@@ -10,7 +10,7 @@ export default function Index() {
         <div className={styles.home}>
             <Head>
                 <title>Neel Bavarva - Home</title>
-                {/* <html>
+                <html>
                     <Script id="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ET7HRLD2NT" />
                     <Script
                         id="window"
@@ -23,12 +23,12 @@ export default function Index() {
                         `,
                     }}
                     />
-                </html> */}
+                </html>
             </Head>
-            <div className={styles.under_construction}>Under construction 🚧</div>
-            {/* <Navbar page={"Home"} />
+            {/* <div className={styles.under_construction}>Under construction 🚧</div> */}
+            <Navbar page={"Home"} />
             <Header />
-            <Skills /> */}
+            <Skills />
         </div>
     )
 }
