@@ -7,6 +7,7 @@ export default function Error() {
         <div>
             <Head>
                 <title>Neel Bavarva - 404</title>
+                <meta name="next-head-count" content="1" />
                 <meta
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"

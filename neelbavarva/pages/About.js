@@ -10,6 +10,7 @@ export default function About() {
         <div className={styles.home}>
             <Head>
                 <title>Neel Bavarva - About</title>
+                <meta name="next-head-count" content="1" />
             </Head>
 
             <Navbar page={"About"} />

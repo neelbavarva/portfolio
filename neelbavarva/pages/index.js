@@ -10,6 +10,7 @@ export default function Index() {
         <div className={styles.home}>
             <Head>
                 <title>Neel Bavarva - Home</title>
+                <meta name="next-head-count" content="1" />
                 <html>
                     <Script
                         id="analytics"

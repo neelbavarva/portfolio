@@ -9,6 +9,7 @@ export default function Projects() {
         <div className={styles.projects}>
             <Head>
                 <title>Neel Bavarva - Projects</title>
+                <meta name="next-head-count" content="1" />
             </Head>
 
             <Navbar page={"Projects"} />
