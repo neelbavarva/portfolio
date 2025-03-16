@@ -71,22 +71,22 @@
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
-    
+
     .skills_header {
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 16px;
     }
-    
+
     .skills_container {
         padding-top: 16px;
     }
-    
+
     .skills_container > span:nth-child(1) {
         font-size: 16px;
         line-height: 28px;
     }
-    
+
     .skills_container > span:nth-child(2) {
         font-size: 14px;
         margin-top: 8px;
@@ -97,30 +97,29 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .skills_header{
+    .skills_header {
         color: var(--header-color-light);
     }
 
-    .skills_container span:nth-child(1){
+    .skills_container span:nth-child(1) {
         color: var(--content-primary-light);
     }
 
-    .skills_container span:nth-child(2){
+    .skills_container span:nth-child(2) {
         color: var(--content-secondary-light);
     }
 }
 
-
 @media (prefers-color-scheme: dark) {
-    .skills_header{
+    .skills_header {
         color: var(--header-color-dark);
     }
 
-    .skills_container span:nth-child(1){
+    .skills_container span:nth-child(1) {
         color: var(--content-primary-dark);
     }
 
-    .skills_container span:nth-child(2){
+    .skills_container span:nth-child(2) {
         color: var(--content-secondary-dark);
     }
 }

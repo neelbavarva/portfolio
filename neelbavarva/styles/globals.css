@@ -52,7 +52,7 @@ body {
     --link-color-dark: #d9d9d9;
     --link-border-color-dark: #6c6c6c;
 
-    --link-select-color: #8153E2;
+    --link-select-color: #8153e2;
     --link-select-border-color: rgba(129, 83, 226, 0.4);
 
     --button-background-light: #fafafa;
@@ -69,9 +69,7 @@ body {
 
     --button-color-selected-light: #242424;
     --button-color-selected-dark: #f6f6f6;
-
 }
-
 
 /* MonoLisa */
 

@@ -1,4 +1,4 @@
-import styles from '../../styles/Home/Skills.module.css'
+import styles from "../../styles/Home/Skills.module.css";
 
 export default function Skills() {
     return (
@@ -19,9 +19,13 @@ export default function Skills() {
                 </div>
                 <div className={styles.skills_container}>
                     <span>CS&nbsp;Fundamentals</span>
-                    <span>Computer Networks, Database Management Systems(DBMS), Object-Oriented Design(OOPs), Operating Systems(OS), Complexity Analysis</span>
+                    <span>
+                        Computer Networks, Database Management Systems(DBMS),
+                        Object-Oriented Design(OOPs), Operating Systems(OS),
+                        Complexity Analysis
+                    </span>
                 </div>
             </div>
         </div>
-    )
+    );
 }

@@ -19,7 +19,6 @@
 
 .work {
     margin-top: 4.5rem;
-    padding: 0rem 5rem 0rem 5rem;
 }
 
 .work_header {
@@ -42,15 +41,15 @@
     text-decoration: none;
 }
 
-.work_info{
+.work_info {
     align-items: center;
 }
 
-.work_info > div{
+.work_info > div {
     display: flex;
 }
 
-.work_info > a{
+.work_info > a {
     display: flex;
     cursor: pointer;
     justify-content: center;
@@ -61,8 +60,8 @@
     background-size: cover;
 }
 
-.work_info > a:hover{
-    background-image: url('../../public/icons/visa_purple.svg');
+.work_info > a:hover {
+    background-image: url("../../public/icons/visa_purple.svg");
 }
 
 .work_container > div:last-child {
@@ -76,11 +75,11 @@
     margin-top: 2px;
 }
 
-.work_container > div:last-child > span:first-child{
+.work_container > div:last-child > span:first-child {
     margin-right: 1rem;
 }
 
-.current{
+.current {
     color: transparent;
 }
 
@@ -102,7 +101,7 @@
         margin-top: 0.75rem;
     }
 
-    .work_container > div:last-child{
+    .work_container > div:last-child {
         display: flex;
         margin-top: 12px;
         line-height: 24px;
@@ -122,22 +121,22 @@
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
-    
+
     .work_header {
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 16px;
     }
-    
+
     .work_container {
         padding-top: 16px;
     }
-    
+
     .work_container > .work_info {
         font-size: 16px;
         line-height: 28px;
     }
-    
+
     .work_container > div:last-child {
         font-size: 14px;
         margin-top: 8px;
@@ -152,19 +151,19 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .work_header{
+    .work_header {
         color: var(--header-color-light);
     }
 
-    .work_container > .work_info{
+    .work_container > .work_info {
         color: var(--content-primary-light);
     }
 
-    .work_info > a{
-        background-image: url('../../public/icons/visa_dark.svg');
+    .work_info > a {
+        background-image: url("../../public/icons/visa_dark.svg");
     }
 
-    .work_container > div:last-child{
+    .work_container > div:last-child {
         color: var(--content-secondary-light);
     }
 
@@ -174,19 +173,19 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .work_header{
+    .work_header {
         color: var(--header-color-dark);
     }
 
-    .work_container > .work_info{
+    .work_container > .work_info {
         color: var(--content-primary-dark);
     }
 
-    .work_info > a{
-        background-image: url('../../public/icons/visa_light.svg');
+    .work_info > a {
+        background-image: url("../../public/icons/visa_light.svg");
     }
 
-    .work_container > div:last-child{
+    .work_container > div:last-child {
         color: var(--content-secondary-dark);
     }
 

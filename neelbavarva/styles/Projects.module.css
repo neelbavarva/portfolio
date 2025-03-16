@@ -9,13 +9,13 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .projects{
+    .projects {
         background-color: white;
     }
 }
 
 @media (prefers-color-scheme: dark) {
-    .projects{
+    .projects {
         background-color: #111111;
     }
 }

@@ -19,7 +19,6 @@
 
 .site {
     margin-top: 3.5rem;
-    padding: 0rem 5rem 0rem 5rem;
 }
 
 .site_header {
@@ -35,13 +34,13 @@
     font-family: var(--font-regular);
 }
 
-.site_list{
+.site_list {
     font-size: 14px;
     line-height: 32px;
     font-family: var(--font-regular);
 }
 
-.site_list a{
+.site_list a {
     text-decoration: none;
     border-bottom-width: 3px;
     border-bottom-style: solid;
@@ -58,7 +57,7 @@
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
-    
+
     .site_header {
         font-size: 24px;
         line-height: 36px;
@@ -71,7 +70,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .site_header{
+    .site_header {
         color: var(--header-color-light);
     }
 
@@ -79,24 +78,23 @@
         color: var(--content-color-light);
     }
 
-    .site_list{
+    .site_list {
         color: var(--content-color-light);
     }
 
-    .site_list a{
+    .site_list a {
         color: var(--link-color-light);
         border-bottom-color: var(--link-border-color-light);
     }
 
-    .site_list a:hover{
+    .site_list a:hover {
         color: var(--link-select-color);
         border-bottom-color: var(--link-select-border-color);
     }
 }
 
-
 @media (prefers-color-scheme: dark) {
-    .site_header{
+    .site_header {
         color: var(--header-color-dark);
     }
 
@@ -104,16 +102,16 @@
         color: var(--content-color-dark);
     }
 
-    .site_list{
+    .site_list {
         color: var(--content-color-dark);
     }
 
-    .site_list a{
+    .site_list a {
         color: var(--link-color-dark);
         border-bottom-color: var(--link-border-color-dark);
     }
 
-    .site_list a:hover{
+    .site_list a:hover {
         color: var(--link-select-color);
         border-bottom-color: var(--link-select-border-color);
     }

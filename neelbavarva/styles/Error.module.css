@@ -24,27 +24,27 @@
     background: linear-gradient(to right, #e39600, #ea4c89, #8f48eb, #1da1f2);
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
 }
 
-.container > h1{
+.container > h1 {
     font-family: var(--font-bold);
     font-size: 48px;
     margin-top: -1rem;
 }
 
-.container > div{
+.container > div {
     font-family: var(--font-regular);
     font-size: 14px;
     line-height: 30px;
     margin-top: -1rem;
 }
 
-.container a{
+.container a {
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -63,12 +63,12 @@
 }
 
 @media (max-width: 600px) {
-    .container > h1{
+    .container > h1 {
         font-size: 36px;
         margin-top: 0rem;
     }
-    
-    .container > div{
+
+    .container > div {
         font-size: 12px;
         line-height: 24px;
         margin-top: 0rem;
@@ -76,42 +76,42 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .container > h1{
+    .container > h1 {
         color: var(--header-color-light);
     }
 
-    .container > div{
+    .container > div {
         color: var(--content-color-light);
     }
 
-    .container a{
+    .container a {
         background-color: var(--button-background-light);
         border-color: var(--button-border-color-light);
         color: var(--header-color-light);
     }
 
-    .container a:hover{
+    .container a:hover {
         background-color: var(--button-background-selected-light);
         color: var(--button-color-selected-light);
     }
 }
-  
+
 @media (prefers-color-scheme: dark) {
-    .container > h1{
+    .container > h1 {
         color: var(--header-color-dark);
     }
 
-    .container > div{
+    .container > div {
         color: var(--content-color-dark);
     }
 
-    .container a{
+    .container a {
         background-color: var(--button-background-dark);
         border-color: var(--button-border-color-dark);
         color: var(--header-color-dark);
     }
 
-    .container a:hover{
+    .container a:hover {
         background-color: var(--button-background-selected-dark);
         color: var(--button-color-selected-dark);
     }
