@@ -1,0 +1,21 @@
+.projects {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 600px) {
+    .projects {
+        padding-bottom: 120px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .projects {
+        background-color: white;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .projects {
+        background-color: #111111;
+    }
+}

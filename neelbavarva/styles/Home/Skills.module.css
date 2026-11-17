@@ -1,0 +1,125 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 850px;
+    }
+}
+
+.skills {
+    margin-top: 4.5rem;
+}
+
+.skills_header {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    font-family: var(--font-bold);
+}
+
+.skills_container {
+    display: flex;
+}
+
+.skills_container > span:nth-child(1) {
+    display: flex;
+    flex: 1;
+    font-family: var(--font-bold);
+    font-size: 16px;
+}
+
+.skills_container > span:nth-child(2) {
+    text-align: right;
+    font-family: var(--font-medium);
+    margin-left: 5rem;
+    font-size: 14px;
+    line-height: 42px;
+    margin-top: 2px;
+}
+
+@media (max-width: 700px) {
+    .skills_container {
+        display: block;
+    }
+
+    .skills_container > span:nth-child(1) {
+        margin-top: 0.75rem;
+    }
+
+    .skills_container > span:nth-child(2) {
+        display: flex;
+        margin-top: 12px;
+        line-height: 24px;
+        margin-left: 0rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .skills_header {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    .skills_container {
+        padding-top: 16px;
+    }
+
+    .skills_container > span:nth-child(1) {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .skills_container > span:nth-child(2) {
+        font-size: 14px;
+        margin-top: 8px;
+        line-height: 24px;
+        margin-left: 0rem;
+        text-align: left;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .skills_header {
+        color: var(--header-color-light);
+    }
+
+    .skills_container span:nth-child(1) {
+        color: var(--content-primary-light);
+    }
+
+    .skills_container span:nth-child(2) {
+        color: var(--content-secondary-light);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .skills_header {
+        color: var(--header-color-dark);
+    }
+
+    .skills_container span:nth-child(1) {
+        color: var(--content-primary-dark);
+    }
+
+    .skills_container span:nth-child(2) {
+        color: var(--content-secondary-dark);
+    }
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+::-moz-selection {
+    background: rgba(0, 50, 228, 0.3);
+}
+::selection {
+    background: rgba(0, 50, 228, 0.3);
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: var(--background-light);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-dark);
+    }
+}
+
+:root {
+    --font-bold: "MonoLisaBold";
+    --font-medium: "MonoLisaMedium";
+    --font-regular: "MonoLisaRegular";
+    --font-light: "MonoLisaLight";
+
+    --background-light: #ffffff;
+    --background-dark: #111111;
+
+    --header-color-light: #111111;
+    --header-color-dark: #eaeaea;
+
+    --content-color-light: #363636;
+    --content-color-dark: #b1b1b1;
+
+    --content-primary-light: #363636;
+    --content-primary-dark: #d9d9d9;
+
+    --content-secondary-light: #6c6c6c;
+    --content-secondary-dark: #6c6c6c;
+
+    --link-color-light: #363636;
+    --link-border-color-light: #d9d9d9;
+    --link-color-dark: #d9d9d9;
+    --link-border-color-dark: #6c6c6c;
+
+    --link-select-color: #8153e2;
+    --link-select-border-color: rgba(129, 83, 226, 0.4);
+
+    --button-background-light: #fafafa;
+    --button-background-dark: #242424;
+
+    --button-color-light: #363636;
+    --button-color-dark: #6c6c6c;
+
+    --button-border-color-light: #eaeaea;
+    --button-border-color-dark: #363636;
+
+    --button-background-selected-light: #f6f6f6;
+    --button-background-selected-dark: #2e2e2e;
+
+    --button-color-selected-light: #242424;
+    --button-color-selected-dark: #f6f6f6;
+}
+
+/* MonoLisa */
+
+@font-face {
+    font-family: "MonolisaLight";
+    src: local("MonolisaLight"),
+        url(../public/fonts/MonoLisa/MonoLisa-Thin.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MonolisaRegular";
+    src: local("MonolisaRegular"),
+        url(../public/fonts/MonoLisa/MonoLisa-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MonoLisaMedium";
+    src: local("MonoLisaMedium"),
+        url(../public/fonts/MonoLisa/MonoLisa-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MonoLisaBold";
+    src: local("MonoLisaBold"),
+        url(../public/fonts/MonoLisa/MonoLisa-Bold.ttf) format("truetype");
+}
+
+/* miscellaneous */
+
+@font-face {
+    font-family: "KScriptRegular";
+    src: local("KScriptRegular"),
+        url(../public/fonts/KScript/KScript-Regular.ttf) format("truetype");
+}

@@ -1,0 +1,118 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 850px;
+    }
+}
+
+.site {
+    margin-top: 3.5rem;
+}
+
+.site_header {
+    font-size: 28px;
+    line-height: 40px;
+    font-family: var(--font-bold);
+}
+
+.site_content {
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: -2rem;
+    font-family: var(--font-regular);
+}
+
+.site_list {
+    font-size: 14px;
+    line-height: 32px;
+    font-family: var(--font-regular);
+}
+
+.site_list a {
+    text-decoration: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+@media (max-width: 800px) {
+    .site {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .site {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .site_header {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    .site_content {
+        margin-top: -1rem;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .site_header {
+        color: var(--header-color-light);
+    }
+
+    .site_content {
+        color: var(--content-color-light);
+    }
+
+    .site_list {
+        color: var(--content-color-light);
+    }
+
+    .site_list a {
+        color: var(--link-color-light);
+        border-bottom-color: var(--link-border-color-light);
+    }
+
+    .site_list a:hover {
+        color: var(--link-select-color);
+        border-bottom-color: var(--link-select-border-color);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .site_header {
+        color: var(--header-color-dark);
+    }
+
+    .site_content {
+        color: var(--content-color-dark);
+    }
+
+    .site_list {
+        color: var(--content-color-dark);
+    }
+
+    .site_list a {
+        color: var(--link-color-dark);
+        border-bottom-color: var(--link-border-color-dark);
+    }
+
+    .site_list a:hover {
+        color: var(--link-select-color);
+        border-bottom-color: var(--link-select-border-color);
+    }
+}

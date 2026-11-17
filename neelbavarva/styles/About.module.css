@@ -1,0 +1,10 @@
+.about_continer {
+    padding-top: calc(72px);
+    padding-bottom: 120px;
+}
+
+@media (max-width: 600px) {
+    .about_continer {
+        padding-top: 0px;
+    }
+}
